@@ -1,0 +1,103 @@
+{
+    "orderHeader": {
+        "orderSourceInfo": {
+            "systemIdentifier": "R",
+            "systemName": "R:ROCON"
+        },
+        "orderEvent": "INV_HOLD",
+        "orderType": "AGY",
+        "customerNumber": "10",
+        "customerType": "AGENCY",
+        "lcoOrderNumber": 19770916,
+        "lcoOrderSystem": {
+            "systemIdentifier": "O",
+            "systemName": "O:WOO_COMMERCE"
+        },
+        "sorOrderNumber": 30000536,
+        "sorSystem": {
+            "systemIdentifier": "R",
+            "systemName": "R:ROCON"
+        },
+        "referenceInfo": [
+            {
+                "referenceSystem": {
+                    "systemIdentifier": "C",
+                    "systemName": "C:WCS"
+                },
+                "referenceIdentifier": "987654321",
+                "referenceIdentifierType": "ORDER_NUMBER",
+                "referenceIdentifierSubtype": "LCO_ORDER",
+                "referenceComment": "WCS Comment goes here.."
+            }
+        ],
+        "orderRequestDate": "2019-09-16T15:24:45-0500",
+        "orderRequiredDate": "2019-09-20",
+        "orderShipmentDate": "2019-09-20",
+        "routeInfo": {
+            "routeCode": "9005",
+            "routeStops": 0
+        },
+        "shipToInfo": {
+            "overwriteShiptoInformation": false,
+            "name": "EAGLE LAKE COUNTRY MARKET",
+            "addressLine1": "2622 EAGLE LAKE RD. BOX 158",
+            "city": "EAGLE LAKE",
+            "provinceCode": "ON",
+            "country": "CANADA",
+            "postalCode": "K0M 1M0",
+            "phoneNumber": "705-754-2538"
+        },
+        "deliveryType": "SHIP_TO_ADDR_ON_FILE",
+        "invoiceInfo": {
+            "invoiceNumber": "30000536",
+            "invoiceType": "E",
+            "invoiceTotalAmount": 706.32,
+            "invoiceDiscountAmount": -69.00,
+            "invoiceBottleDepositAmount": 4.80,
+            "invoiceHstAmount": 80.76,
+            "invoiceLicMUAmount": 0.0,
+            "invoiceLevyAmount": 0.0,
+            "invoiceRetailAmount": 784.20,
+            "deliveryCharge": {
+                "deliveryChargeType": "CalculateDelivery",
+                "deliveryBaseAmount": 0.0,
+                "deliveryHstAmount": 0.0
+            }
+        },
+        "numberOfLineItems": 2,
+        "numberOfFullCases": 0,
+        "numberofPartialCases": 0
+    },
+    "orderItems": [
+        {
+            "itemLineNumber": 1,
+            "itemSku": 318709,
+            "itemQuantity": 12,
+            "shippedQuantity": 0,
+            "priceInfo": {
+                "itemSellingPrice": 26.52,
+                "itemBasicPrice": 26.08,
+                "itemBottleDeposit": 0.20,
+                "itemDiscountAmount": -2.59,
+                "itemLicMarkupAmount": 0.0,
+                "itemHSTAmount": 3.03,
+                "itemRetailPrice": 29.45
+            }
+        },
+        {
+            "itemLineNumber": 2,
+            "itemSku": 500504,
+            "itemQuantity": 24,
+            "shippedQuantity": 0,
+            "priceInfo": {
+                "itemSellingPrice": 16.17,
+                "itemBasicPrice": 15.90,
+                "itemBottleDeposit": 0.10,
+                "itemDiscountAmount": -1.58,
+                "itemLicMarkupAmount": 0.0,
+                "itemHSTAmount": 1.85,
+                "itemRetailPrice": 17.95
+            }
+        }
+    ]
+}

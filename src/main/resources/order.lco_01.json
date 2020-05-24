@@ -1,0 +1,68 @@
+{
+  "orderHeader": {
+    "orderSourceInfo":{
+      "systemIdentifier": "C",
+      "systemName": "C:WCS"
+    },
+    "orderEvent": "INV_HOLD",
+    "orderType": "AGY",
+    "customerNumber": "10",
+    "customerType": "AGENCY",
+    "lcoOrderNumber": 19770916,
+    "lcoOrderSystem": {
+      "systemIdentifier": "O",
+      "systemName": "O:WOO_COMMERCE"
+    },
+    "referenceInfo":[
+      {   "referenceSystem": {
+        "systemIdentifier": "C",
+        "systemName": "C:WCS"
+      },
+        "referenceIdentifier": "987654321",
+        "referenceIdentifierType": "ORDER_NUMBER",
+        "referenceIdentifierSubtype":"LCO_ORDER",
+        "referenceComment":"WCS Comment goes here.."
+      }
+    ],
+    "orderRequestDate": "2019-06-17T15:24:45-0500",
+    "orderRequiredDate": "2019-06-19",
+    "routeInfo": {
+      "routeCode": "EAGL",
+      "routeStops": 0
+    },
+    "shipToInfo": {
+      "overwriteShipToInformation" : false,
+      "name": "EAGLE LAKE COUNTRY MARKET",
+      "addressLine1": "2622 EAGLE LAKE RD. BOX 158",
+      "city": "EAGLE LAKE",
+      "provinceCode": "ON",
+      "country": "CANADA",
+      "postalCode": "K0M 1M0",
+      "phoneNumber": "705-754-2538"
+    },
+    "deliveryType": "SHIP_TO_ADDR_ON_FILE",
+    "numberOfLineItems": 2
+  },
+  "orderItems": [
+    {"itemLineNumber": 1,
+      "itemSku": 318709,
+      "itemQuantity": 12,
+      "priceInfo": {
+        "itemSellingPrice": 24.42,
+        "itemBasicPrice": 26.97,
+        "itemHSTAmount": 3.13,
+        "itemBottleDeposit": 0.2
+      }
+    },
+    {"itemLineNumber": 2,
+      "itemSku": 500504,
+      "itemQuantity": 24,
+      "priceInfo": {
+        "itemSellingPrice": 16.17,
+        "itemBasicPrice": 15.90,
+        "itemHSTAmount": 1.85,
+        "itemBottleDeposit": 0.6
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+    "orderHeader": {
+        "orderSourceInfo":{
+               "systemIdentifier": "R",
+                "systemName": "R:ROCON",
+                "systemOrderStatusDetail" : [ 
+                    {"statusPathName": "sourceStatusLifeCyclePath_1", "statusSequenceNo":1, "statusIdentifier": "W"},
+                    {"statusPathName": "sourceStatusLifeCyclePath_1","statusSequenceNo":2, "statusIdentifier": "O"},
+                    {"statusPathName": "sourceStatusLifeCyclePath_1","statusSequenceNo":3, "statusIdentifier": "R"},
+                    {"statusPathName": "sourceStatusLifeCyclePath_1","statusSequenceNo":4, "statusIdentifier": "P"},
+                    {"statusPathName": "sourceStatusLifeCyclePath_1","statusSequenceNo":5, "statusIdentifier": "I"},
+                    {"statusPathName": "sourceStatusLifeCyclePath_1","statusSequenceNo":6, "statusIdentifier": "C"},
+                    {"statusPathName": "sourceStatusLifeCyclePath_2", "statusSequenceNo":1, "statusIdentifier": "W"},
+                    {"statusPathName": "sourceStatusLifeCyclePath_2", "statusSequenceNo":2, "statusIdentifier": "O"},
+                    {"statusPathName": "sourceStatusLifeCyclePath_2", "statusSequenceNo":3, "statusIdentifier": "D"},
+                    {"statusPathName": "sourceStatusLifeCyclePath_3","statusSequenceNo":1, "statusIdentifier": "W"},
+                    {"statusPathName": "sourceStatusLifeCyclePath_3","statusSequenceNo":2, "statusIdentifier": "O"},
+                    {"statusPathName": "sourceStatusLifeCyclePath_3","statusSequenceNo":3, "statusIdentifier": "R"},
+                    {"statusPathName": "sourceStatusLifeCyclePath_3","statusSequenceNo":4, "statusIdentifier": "Z"},
+                    {"statusPathName": "sourceStatusLifeCyclePath_4","statusSequenceNo":1, "statusIdentifier": "W"},
+                    {"statusPathName": "sourceStatusLifeCyclePath_4","statusSequenceNo":2, "statusIdentifier": "D"}
+                    ]
+        },
+        "orderEvent": "STATUS_UPDATE",
+        "orderStatus": {
+            "orderStatusCode": "C",
+            "orderStatusName": "C:CLOSED",
+            "statusCreateTime":"2019-06-17T19:20:31-0500" 
+        },
+        "publishedOrderStatus":[  
+            {"statusSequenceNo":1, "statusIdentifier": "W", "statusCreateTime": "2019-06-17T15:24:50-0500"},
+            {"statusSequenceNo":2, "statusIdentifier": "O", "statusCreateTime": "2019-06-17T17:20:26-0500"},
+            {"statusSequenceNo":3, "statusIdentifier": "R", "statusCreateTime": "2019-06-17T18:20:26-0500"},
+            {"statusSequenceNo":4, "statusIdentifier": "P", "statusCreateTime": "2019-06-17T19:20:26-0500"},
+            {"statusSequenceNo":5, "statusIdentifier": "I", "statusCreateTime": "2019-06-17T19:20:30-0500"},
+            {"statusSequenceNo":6, "statusIdentifier": "C", "statusCreateTime": "2019-06-17T19:20:31-0500"}
+
+      
+        ],
+        "orderType": "AGY",
+        "customerNumber": "930010",
+        "customerType": "AGENCY",
+        "lcoOrderNumber": 12345678,	
+        "lcoOrderSystem": {
+            "systemIdentifier": "O",
+            "systemName": "O:WOO_COMMERCE"
+        },
+        "sorOrderNumber": 92121122,
+        "sorSystem": {
+            "systemIdentifier": "R",
+            "systemName": "R:ROCON"
+        },
+        "referenceInfo":[
+            {
+                "referenceSystem": {
+                    "systemIdentifier": "C",
+                    "systemName": "C:WCS"
+                },
+                "referenceIdentifier": "987654321",
+                "referenceIdentifierType": "ORDER_NUMBER",
+                "referenceIdentifierSubtype":"LCO_ORDER",
+                "referenceComment":"WCS Comment goes here.."
+            },
+            { 
+                "referenceSystem": {
+                "systemIdentifier": "M",
+                "systemName": "M:OMS"
+              },
+            "referenceIdentifier": "987654321",
+            "referenceIdentifierType": "ORDER_NUMBER",
+            "referenceIdentifierSubtype":"LCO_ORDER",
+            "referenceComment":"OMS Comment goes here.."
+            }
+        ],
+        "orderRequestDate": "2019-06-17T15:24:45-0500",
+		"orderRequiredDate": "2019-06-19",
+        "routeInfo": {						
+            "routeCode": "EAGL",
+            "routeStops": 0
+        },
+        "shipToInfo": {					
+            "overwriteShipToInformation" : false,
+            "name": "EAGLE LAKE COUNTRY MARKET",
+            "addressLine1": "2622 EAGLE LAKE RD. BOX 158",
+            "city": "EAGLE LAKE",
+            "provinceCode": "ON",
+            "country": "CANADA",
+            "postalCode": "K0M 1M0",
+            "phoneNumber": "705-754-2538"
+        },
+        "deliveryType": "SHIP_TO_ADDR_ON_FILE",
+        "invoiceInfo": {		
+            "invoiceNumber": "30000536",
+            "invoiceType": "A",			
+            "invoiceTotalAmount": 512.28,
+            "invoiceDiscountAmount": -50.04,			
+            "invoiceBottleDepositAmount": 2.40,
+            "invoiceHstAmount": 58.56,
+            "invoiceRetailAmount":784.20,
+            "deliveryCharge": {
+                "deliveryChargeType": "CALCULATE DELIVERY",
+                "deliveryBaseAmount": 0,
+                "deliveryHstAmount": 0
+            }
+        },
+        "numberOfLineItems": 2,
+        "numberOfFullCases":2 ,
+        "numberOfPartialCases" : 0
+    },
+    "orderItems": [
+        {
+            "itemLineNumber": 1,
+            "itemSku": 318709,
+            "itemQuantity": 12,
+            "shippedQuantity": 0,
+            "priceInfo": {
+                "itemSellingPrice": 26.52,
+                "itemBasicPrice": 26.08,
+                "itemBottleDeposit": 0.20,
+                "itemDiscountAmount": -2.59,
+                "itemLicMarkupAmount": 0.0,
+                "itemHSTAmount": 3.03,
+                "itemRetailPrice": 29.45
+            }
+        },
+        {"itemLineNumber": 2, 
+            "itemSku": 18, 
+            "itemQuantity": 1,
+            "shippedQuantity": 0,
+			"priceInfo": {			
+				"itemSellingPrice": 12.61,
+				"itemBasicPrice": 12.41,
+				"itemHSTAmount": 1.38,
+				"itemBottleDeposit": 0.6
+			}
+        }
+    ]
+}
